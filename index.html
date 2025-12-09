@@ -89,7 +89,7 @@
 				<div class="text-inner">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center">
-							<h1 class="to-animate">Naira & Kaira <br> presents...</h1>
+							<h1 class="to-animate">ain & sora <br> presents...</h1>
 							<h2 class="to-animate"><strong>Пристрій для розриву з'єднання</strong> та аналізу <strong>Wi-Fi та Bluetooth мереж</strong> на базі ARM <br> У контексті кібербезпеки та навчальних досліджень часто використовується термін <strong>«глушіння мережі»</strong></a></h2>
 						</div>
 					</div>
@@ -158,27 +158,112 @@
 					</div>
 				</div>
 				<div id="fh5co-counter-section" class="fh5co-counters">
-					<div class="container">
-						<div class="row to-animate">
-							<div class="col-md-3 text-center">
-								<span class="fh5co-counter js-counter" data-from="0" data-to="3452" data-speed="5000" data-refresh-interval="50"></span>
-								<span class="fh5co-counter-label">Analyzed Packets</span>
-							</div>
-							<div class="col-md-3 text-center">
-								<span class="fh5co-counter js-counter" data-from="0" data-to="234" data-speed="5000" data-refresh-interval="50"></span>
-								<span class="fh5co-counter-label">Network Tests Completed</span>
-							</div>
-							<div class="col-md-3 text-center">
-								<span class="fh5co-counter js-counter" data-from="0" data-to="6542" data-speed="5000" data-refresh-interval="50"></span>
-								<span class="fh5co-counter-label">Wireless Experiments</span>
-							</div>
-							<div class="col-md-3 text-center">
-								<span class="fh5co-counter js-counter" data-from="0" data-to="8687" data-speed="5000" data-refresh-interval="50"></span>
-								<span class="fh5co-counter-label">Security Checks</span>
-							</div>
-						</div>
-					</div>
-				</div>
+    <div class="container">
+
+        <!-- Row 1 -->
+        <div class="row to-animate">
+
+            <!-- ESP32-S3 -->
+            <div class="col-md-4 text-center">
+                <h3>ESP32-S3</h3>
+                <ul class="spec-list">
+                    <li>CPU: 2× LX7 до 240 MHz</li>
+                    <li>RAM: 512 KB</li>
+                    <li>Flash: 4–16 MB</li>
+                    <li>Wi-Fi: 2.4 GHz b/g/n</li>
+                    <li>Bluetooth: BLE 5.0 + Mesh</li>
+                    <li>GPIO: ~45 пінів</li>
+                    <li>Інтерфейси: I2C, SPI, UART, USB OTG</li>
+                    <li>Напруга: 3.0–3.6 V</li>
+                </ul>
+                <p class="desc">Потужний Wi-Fi/BLE контролер для IoT.</p>
+            </div>
+
+            <!-- nRF24L01+ -->
+            <div class="col-md-4 text-center">
+                <h3>nRF24L01+</h3>
+                <ul class="spec-list">
+                    <li>Частота: 2.4 GHz</li>
+                    <li>Швидкість: 250 kbps – 2 Mbps</li>
+                    <li>Дальність: 30–1000 м</li>
+                    <li>Інтерфейс: SPI</li>
+                    <li>Напруга: 1.9–3.6 V</li>
+                    <li>Споживання: 11–115 mA</li>
+                    <li>Канали: 125</li>
+                    <li>CRC: 1–2 байти</li>
+                </ul>
+                <p class="desc">Стабільний радіомодуль для бездротових сенсорів.</p>
+            </div>
+
+            <!-- OLED 0.91" -->
+            <div class="col-md-4 text-center">
+                <h3>OLED 0.91" 128×32</h3>
+                <ul class="spec-list">
+                    <li>Роздільність: 128×32</li>
+                    <li>Контролер: SSD1306</li>
+                    <li>Інтерфейс: I2C</li>
+                    <li>Живлення: 3.3–5 V</li>
+                    <li>Споживання: ~20 mA</li>
+                    <li>Тип: монохромний OLED</li>
+                </ul>
+                <p class="desc">Компактний дисплей для індикаторів та статусів.</p>
+            </div>
+
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row to-animate" style="margin-top:40px;">
+
+            <!-- OLED 0.96" -->
+            <div class="col-md-4 text-center">
+                <h3>OLED 0.96" 128×64</h3>
+                <ul class="spec-list">
+                    <li>Роздільність: 128×64</li>
+                    <li>Контролер: SSD1306</li>
+                    <li>Інтерфейс: I2C</li>
+                    <li>Живлення: 3.3–5 V</li>
+                    <li>Споживання: 20–30 mA</li>
+                    <li>Тип: монохромний OLED</li>
+                </ul>
+                <p class="desc">Більше місця для графіків, UI та анімацій.</p>
+            </div>
+
+            <!-- TP4056 -->
+            <div class="col-md-4 text-center">
+                <h3>TP4056 Type-C</h3>
+                <ul class="spec-list">
+                    <li>Живлення: 5 V (USB-C)</li>
+                    <li>Струм зарядки: 1 A</li>
+                    <li>Підтримка: Li-Ion / Li-Po 3.7 V</li>
+                    <li>Захист: OVP, OCP, перерозряд, коротке замикання</li>
+                    <li>LED-індикація стану</li>
+                </ul>
+                <p class="desc">Надійний зарядний модуль з повним захистом.</p>
+            </div>
+
+            <!-- Li-Po Battery -->
+            <div class="col-md-4 text-center">
+                <h3>Li-Po 200 mAh</h3>
+                <ul class="spec-list">
+                    <li>Ємність: 200 mAh</li>
+                    <li>Напруга: 3.7 V</li>
+                    <li>Габарити: 36.3×11.9×5.9 мм</li>
+                    <li>Макс. струм: 0.5–1C</li>
+                    <li>Тип: Li-Po</li>
+                </ul>
+                <p class="desc">Компактний акумулятор для портативних пристроїв.</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+        </div>
+    </div>
+</div>
+
 			</div>
 		</div>
 	</section>
@@ -187,10 +272,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Project Done</h2>
+					<h2 class="to-animate">Що таке ain & sora presents...</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h3>ain та sora — це портативні пристрої, створені на базі ESP32‑S3, nRF24L01+, OLED‑дисплеїв та акумуляторної системи з TP4056. Глушилка ain & sora — це потужний інструмент, для складання якого потрібен ESP32 та налаштовувана кількість модулів NRF24.
+Він призначений для створення перешкод, порушуючи нормальну роботу пристроїв Bluetooth, технології BLE, дронів, мереж Wi-Fi та Zigbee.
+Крім того, він має зручний веб-інтерфейс. та може керуватися локально через дисплей та одного джойстика</h3>
 						</div>
 					</div>
 				</div>
@@ -198,9 +285,10 @@
 		</div>
 		<div class="fh5co-project">
 			<div class="container">
+				<center><h2 class="to-animate">Вигляд прототипів ain & sora </h2></center>
 				<div class="row">
 					<div class="col-md-4 text-center">
-						<div class="project-grid to-animate-2" style="background-image:  url(images/mod3.png);">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/mod9.png);">
 							<div class="desc">
 								<h3><a href="#">MasCom Template</a></h3>
 								<span>By: Louie D' Great</span>
@@ -208,7 +296,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 text-center">
-						<div class="project-grid to-animate-2" style="background-image:  url(images/mod2.png);">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/mod8.png);">
 							<div class="desc">
 								<h3><a href="#">Long Tower</a></h3>
 								<span>By: John Doe</span>
@@ -216,7 +304,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 text-center">
-						<div class="project-grid to-animate-2" style="background-image:  url(images/mod1.png);">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/mod7.png);">
 							<div class="desc">
 								<h3><a href="#">Flash Theme</a></h3>
 								<span>By: Thomas Jones</span>
@@ -235,7 +323,11 @@
 						<div class="project-grid to-animate-2" style="background-image:  url(images/project-6.jpg);">
 							<div class="desc">
 								<h3><a href="#">Dance Theme</a></h3>
-								<span>By: FreeHTML5.co</span>
+								<span>УВАГА: реальна плата може відрізнятися від зображення. Комплектуючі замовляю переважно з Китаю, частину — в Україні, тому можливі незначні візуальні відмінності. Параметри, характеристики та функціонал повністю відповідають опису вище. У разі будь-яких змін я додатково повідомлю.
+
+За потреби можу змінити конфігурацію пристрою: встановити потужніший акумулятор або додати дисплей більшого розміру.
+
+Корпус: наразі перебуває на етапі розробки, часу обмаль. Тому відправляю пристрій без корпусу, але плата повністю спаяна, протестована, робоча та надійно упакована у коробку.</span>
 							</div>
 						</div>
 					</div>
@@ -259,11 +351,11 @@
 				</div>
 
 				<div class="row">
-					<div class="col-md-3 col-sm-6">
+					<!--<div class="col-md-3 col-sm-6">
 						<div class="price-box to-animate">
-							<h2 class="pricing-plan">Starter</h2>
-							<div class="price"><sup class="currency">$</sup>7<small>/mo</small></div>
-							<p>Basic customer support for small business</p>
+							<h2 class="pricing-plan">ain</h2>
+							<div class="price"><sup class="currency">$</sup>1800<small>/mo</small></div>
+							<p>Менший розмір дисплея більш непомітний</p>
 							<hr>
 							<ul class="pricing-info">
 								<li>10 projects</li>
@@ -273,40 +365,42 @@
 							</ul>
 							<p><a href="#" class="btn btn-primary">Read More</a></p>
 						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="price-box to-animate">
-							<h2 class="pricing-plan">Regular</h2>
-							<div class="price"><sup class="currency">$</sup>19<small>/mo</small></div>
-							<p>Basic customer support for small business</p>
-							<hr>
-							<ul class="pricing-info">
-								<li>15 projects</li>
-								<li>40 Pages</li>
-								<li>40 Emails</li>
-								<li>200 Images</li>
-							</ul>
-							<p><a href="#" class="btn btn-primary">Read More</a></p>
-						</div>
-					</div>
-					<div class="clearfix visible-sm-block"></div>
-					<div class="col-md-3 col-sm-6 to-animate">
-						<div class="price-box popular">
-							<div class="popular-text">Best value</div>
-							<h2 class="pricing-plan">Plus</h2>
-							<div class="price"><sup class="currency">$</sup>79<small>/mo</small></div>
-							<p>Basic customer support for small business</p>
-							<hr>
-							<ul class="pricing-info">
-								<li>Unlimitted projects</li>
-								<li>100 Pages</li>
-								<li>100 Emails</li>
-								<li>700 Images</li>
-							</ul>
-							<p><a href="#" class="btn btn-primary">Read More</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
+					</div>-->
+<div class="col-md-4 col-sm-6">
+	<div class="price-box to-animate">
+		<h2 class="pricing-plan">Kaira</h2>
+		<div class="price"><sup class="currency">$</sup>79</div>
+		<p>Компактна версія з OLED 0.91'' — мінімальний розмір, максимальна портативність.</p>
+		<hr>
+		<ul class="pricing-info">
+			<li>ESP32-S3 + nRF24L01+</li>
+			<li>OLED 0.91" 128×32</li>
+			<li>Li-Po 200 mAh + TP4056</li>
+			<li>Вбудований веб-інтерфейс</li>
+		</ul>
+		<p><a href="#" class="btn btn-primary">Read More</a></p>
+	</div>
+</div>
+
+<div class="clearfix visible-sm-block"></div>
+<div class="col-md-4 col-sm-6 to-animate">
+	<div class="price-box popular">
+		<div class="popular-text">Кращий вибір</div>
+		<h2 class="pricing-plan">Naira</h2>
+		<div class="price"><sup class="currency">$</sup>120</div>
+		<p>Збільшений OLED 0.96'' — зручніше управління, більше інформації на екрані.</p>
+		<hr>
+		<ul class="pricing-info">
+			<li>ESP32-S3 + nRF24L01+</li>
+			<li>OLED 0.96" 128×64</li>
+			<li>Li-Po 200 mAh + TP4056</li>
+			<li>Розширені функції інтерфейсу</li>
+		</ul>
+		<p><a href="#" class="btn btn-primary">Read More</a></p>
+	</div>
+</div>
+
+					<!--<div class="col-md-3 col-sm-6">
 						<div class="price-box to-animate">
 							<h2 class="pricing-plan">Enterprise</h2>
 							<div class="price"><sup class="currency">$</sup>125<small>/mo</small></div>
@@ -319,12 +413,12 @@
 								<li>Unlimitted Images</li>
 							</ul>
 							<p><a href="#" class="btn btn-primary">Read More</a></p>
-						</div>
+						</div>-->
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3 col-md-push-3 to-animate">
+					<div class="col-md-4 col-md-offset-3 col-md-push-3 to-animate">
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 					</div>

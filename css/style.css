@@ -442,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-pricing .price-box {
   border: 2px solid rgba(255, 255, 255, 0.1);
-  text-align: center;
+  text-align: left;
   padding: 30px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
