@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Замовлення товару</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000; /* чорний фон сторінки */
+            color: #fff;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.1); /* прозорий білий блок */
+            color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px); /* розмиває фон позаду */
+            border: 1px solid rgba(255, 0, 0, 0.5); /* червона рамка */
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff0000; /* червоний заголовок */
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: rgba(255,255,255,0.2); /* прозорі інпут поля */
+            color: #fff;
+            box-sizing: border-box;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: rgba(255,255,255,0.7);
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff0000; /* червона кнопка */
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #cc0000;
+        }
+
+        .note {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Замовлення товару</h1>
+        <form action="#" method="post">
+            <label for="name">Ім'я</label>
+            <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Ваш email" required>
+
+            <label for="product">Товар</label>
+            <select id="product" name="product" required>
+                <option value="">Оберіть товар</option>
+                <option value="product1">Товар 1</option>
+                <option value="product2">Товар 2</option>
+                <option value="product3">Товар 3</option>
+            </select>
+
+            <label for="quantity">Кількість</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+            <label for="notes">Додаткові примітки</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Ваші побажання..."></textarea>
+
+            <button type="submit">Замовити зараз</button>
+            <p class="note">* Усі поля обов’язкові для заповнення</p>
+        </form>
+    </div>
+
+</body>
+</html>
